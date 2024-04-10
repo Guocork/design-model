@@ -1,7 +1,12 @@
 #![allow(dead_code)]
 
-mod borrowType;
+mod part2;
 mod part3;
+mod part4;
+mod part5;
+mod part6;
+mod part7;
+mod part8;
 fn say_hello1(name: &str) -> String {
     format!("Hello {} !",name)
 }

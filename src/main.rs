@@ -7,6 +7,8 @@ mod part5;
 mod part6;
 mod part7;
 mod part8;
+mod part9;
+mod part10;
 fn say_hello1(name: &str) -> String {
     format!("Hello {} !",name)
 }

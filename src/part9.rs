@@ -1,5 +1,7 @@
 #![allow(dead_code)]
-
+/**
+ *  9-11 命令模式
+ */
 pub trait Migration {
     fn execute(&self) -> &str;
     fn rollback(&self) -> &str;
